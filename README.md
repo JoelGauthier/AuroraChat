@@ -11,7 +11,7 @@ You can run the program and enter either "test" or "train" to use the model.
 
 recomeded version: Python 3.13 (tested)
 required libraries:
-  tensorflow
-  numpy
-  json
+  tensorflow,
+  numpy,
+  json,
   sentencepiece
