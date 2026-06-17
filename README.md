@@ -8,3 +8,10 @@ upon training and testing, the parameters are saved to and loaded fromj params.j
 This project features a text tokenizer, embedding, GRU RNN, and probability token selection.
 
 You can run the program and enter either "test" or "train" to use the model.
+
+recomeded version: Python 3.13 (tested)
+required libraries:
+  tensorflow
+  numpy
+  json
+  sentencepiece
