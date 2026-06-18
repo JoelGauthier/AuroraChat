@@ -1,6 +1,6 @@
 #AURORA - Auxiliary Uniform Response Observation Research Algorithm
 
-This is a simple GRU model text generator, it can read text and use it to train the model, and can then be used to generate new responses.
+This is a simple GRU model text generator, it can read text and use it to train the model, and can then be used to predict what will come after inputed text.
 
 Text is read from training_data.txt, and converts it into tokens with subword.model, and subword.vocab and is stored in a compressed file dataset.npz.
 upon training and testing, the parameters are saved to and loaded fromj params.json.
